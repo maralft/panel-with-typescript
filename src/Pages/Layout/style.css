@@ -1,0 +1,49 @@
+main {
+    height: 100vh !important;
+    overflow: hidden;
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+}
+
+.slick-dots li button {
+    color: #222 !important;
+    background-color: #222 !important;
+}
+
+.ant-form-item-label {
+    text-align: right
+}
+
+.ant-calendar-picker-input ant-input {
+    text-align: center;
+}
+
+.ant-calendar-picker {
+    width: 100%;
+}
+
+.ant-drawer-content {
+    background-color: rgb(34, 45, 50);
+}
+
+.ant-drawer-body {
+    padding: 0
+}
+
+.ant-table-body {
+    overflow: auto;
+}
+
+@media (min-width: 993px) {
+    .v-lg {
+        display: none !important;
+    }
+}
